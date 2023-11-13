@@ -1,26 +1,174 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-main, initial-scale=1.0"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css"/>
-    <title>Presentación</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-main, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="main.css" />
+  <title>Presentación</title>
 </head>
-    
-<header>
-    <a>Este es el encabezado de la página</a>
+
+<header class="header">
+  <a>Este es el encabezado de la página</a>
+  <nav>
+    <a href="#">Sobre mí</a>
+    <a href="#">Mis Hobbies</a>
+    <a href="#">Mí Receta</a>
+    <a href="#">Mi Rutina</a>
+  </nav>
 </header>
-    
+
 <body>
-    <h1>¡Hola!</h1>
-    <h2>Bienvenido a mi página web</h2>
-    <h3>Miguel Ángel Arango Echavez</h3>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+  <div class="wrapper">
+    <div class="header">
+      <h1>¡Hola, mundo!</h1>
+      <h2>Bienvenido a mi página web</h2>
+      <h3>Miguel Ángel Arango Echavez</h3>
+    </div>
+
+    <article class="main">
+      <h1>Sobre mí</h1>
+      <p>
+        Mi nombre es <b>Miguel Ángel Arango</b>, soy un joven de
+        <b>21 años</b> apasionado por la programación de videojuegos, gracias a
+        este gusto adquirido a temprana edad he logrado aprender un sin número
+        de habilidades que sin duda serán fundamentales para mi futuro.
+        <br />
+        Mediante este bootcamp busco aprender aquella habilidad que nunca
+        profundice, la cual es la del <b>diseño web</b>.
+      </p>
+      <img
+        src="mi-foto.png"
+        alt="Foto de los 15 años de mi sobrina"
+        style="width: 70%; border-radius: 2%"
+      />
+      <br><br>
+      <h4>MI RUTINA SEMANAL</h4>
+      <table class="tabla">
+        <thead>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pecho</td>
+                <td>Pierna</td>
+                <td>Descanso</td>
+                <td>Bicep</td>
+                <td>Pierna</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>Espalda</td>
+                <td>Antebrazo</td>
+                <td></td>
+                <td>Tricep</td>
+                <td>Pecho</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Espalda</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    </article>
+
+    <aside class="aside aside-one">
+      <h4>PASATIEMPOS / HOBBIES</h4>
+      <ul>
+        <li>Programación de videojuegos</li>
+        <li>Literatura, ver anime y leer mangas</li>
+        <li>Calistenia, gym y halterofilia</li>
+        <li>Jugar videojuegos</li>
+        <li>Armar / modificar equipos (PCs, TVs, SPs, etc..)</li>
+      </ul>
+      <h4>CANCIONES PREFERIDAS</h4>
+      <iframe class="center" width="100%" height="200vw" src="https://www.youtube.com/embed/hdf7gIW_hls" title="SiM - A (OFFICIAL VIDEO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="100%" height="200vw" src="https://www.youtube.com/embed/bpLaR7pkLJI?&autoplay=1" title="ENTERTAINMENT - Milli" allow="autoplay"></iframe>
+
+    </aside>
+
+    <aside class="aside aside-two">
+      <h4>RECETA FAVORITA</h4>
+      <a><b>TOSTADAS FRANCESAS ALTAS EN PROTEÍNA</b></a>
+      <br />
+      <a style="font-weight: 500">INGREDIENTES:</a>
+      <ol>
+        <li>1 Huevo</li>
+        <li>1 Scoop de Proteína de suero de leche (Whey Protein)</li>
+        <li>1/4 Taza de leche</li>
+        <li>Canela en polvo</li>
+        <li>Tajadas de pan</li>
+        <li>Aceite de oliva (preferiblemente)</li>
+      </ol>
+      <a style="font-weight: 500">PREPARACiÓN:</a>
+      <ol>
+        <li>
+          Mezclar y revolver el huevo, el scoop y la taza de leche en un bowl
+        </li>
+        <li>Mezclar hasta conseguir una textura pegajosa</li>
+        <li>Añadir dos espolvoreadas de canela en polvo</li>
+        <li>Revolver por 10 segundos</li>
+        <li>Utilizar la mezcla untándola en las tajadas de pan</li>
+        <li>
+          Verter unas gotas de aceite en un sartén y freír las tostadas por 30
+          segundos a 1 minuto
+        </li>
+        <li>
+          Voltear las tajadas de pan por ambos lados para tener una textura
+          uniforme
+        </li>
+        <li>Servir y disfrutar</li>
+      </ol>
+      <img
+        class="center"
+        src="https://www.mandatory.com/wp-content/uploads/sites/10/gallery/brunch-order-says-about-you/french-toast.gif"
+        alt="Tostadas de proteína"
+        style="border-radius: 100%; width: 300px;"
+      />
+    </aside>
+
+    <div class="footer">
+      <h1>Body Footer W.I.P</h1>
+    </div>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 </body>
-    
+
 <footer>
-    <a>Aquí va el contenido del pie de página</a>
+  <div class="footerWrap">
+    <h1>Contacto</h1>
+    <div class="container">
+      <i class="fa-brands fa-google"></i>
+      <a>miguel.arango.business@gmail.com</a>
+    </div>
+    <div class="container">
+      <i class="fa-brands fa-whatsapp fa-beat"></i>
+      <a>+57 310 2626793</a>
+    </div>
+    <img src="gato.png" width="50%" style="margin: 25px;">
+  </div>
 </footer>
